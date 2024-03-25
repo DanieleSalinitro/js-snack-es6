@@ -3,7 +3,7 @@ Creare un array di oggetti:
 Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
 Stampare in console la bici con peso minore utilizzando destructuring e template literal
 */
-
+/*
 const bicycles = [
     {
         name: 'bmx',
@@ -56,3 +56,37 @@ bicycles.forEach((el) => {
 })
 
 console.log(`La bici con peso minore è ${minimumWeight.name} con un peso di ${minimumWeight.weight} kg`);
+*/
+
+const teams = [
+    {
+        name: 'Milan',
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: 'Roma',
+        points: 0,
+        fouls: 0    
+    },
+    {
+        name: 'Inter',
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: 'Napoli',
+        points: 0,
+        fouls: 0    
+    },
+    {
+        name: 'Juventus',
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: 'Lazio',
+        points: 0,
+        fouls: 0
+    }
+];
