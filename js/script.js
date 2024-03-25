@@ -47,4 +47,12 @@ const bicycles = [
     }
 ];
 
-let minimumWeight = 0 ;
+let minimumWeight = bicycles[0].weight;
+bicycles.forEach((el) => {
+    if (bicycles.weight < minimumWeight) {
+        minimumWeight = bicycles.weight;
+        return minimumWeight, bicycles.name;
+    }
+})
+
+console.log(`La bici con peso minore è ${bicycles.name} con un peso di ${minimumWeight} kg`);
